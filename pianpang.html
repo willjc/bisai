@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="font/iconfont.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/main.css?201708015" rel="stylesheet" type="text/css" />
+    <script src="js/hm.js?234a50e61ace866d010f744976275801"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "js/hm.js?234a50e61ace866d010f744976275801";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        var friend_list 	= [];
+        var friend_beizhu	= [];
+
+        //加载宽屏css
+        var bogy_width	= document.documentElement.clientWidth;
+        if(bogy_width >=1600){
+            document.write('<link href="css/main_1600.css" rel="stylesheet" type="text/css" />');
+        }
+    </script>
+    <link href="css/main_1600.css" rel="stylesheet" type="text/css" />
+    <script src="js/main.js?20170421-1" type="text/javascript"></script>
+    <script type="text/javascript" src="http://dazi.kukuw.com/js/json2.js"></script>
+</head>
+<body>
+<style>
+    #info_form {
+        overflow-y: hidden;
+        height: auto;
+    }
+    .form-group {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .form-control {
+        display: block;
+        width: 200px;
+    }
+    .table {
+        width: 100%;
+    }
+
+</style>
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="huidu">
+                <div class="huidu_tu">
+                    <div class="dropdown">
+                        <div class="  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="icon iconfont">&#xe620;</i>
+                            <span class="caret"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">个人中心</a></li>
+                            <li><a href="#">反馈</a></li>
+                            <li><a href="#">设置</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="huidu_2">
+                <div class="toux">
+                    <div class="touin" style="overflow: hidden">
+                        <div class="touxdont">
+                            姓名：张三
+                            <br/>
+                            班级：一年级1班
+                            <br/>
+                            学校：阿斯顿撒麦克雷
+                            <div style="margin-top: 12px">
+                                <i class="icon iconfont">&#xe620;</i>
+                                <i class="icon iconfont">&#xe620;</i>
+                                <i class="icon iconfont">&#xe620;</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="typing_info" style="display: block; margin-right: 0px; right: 10px; top: 96px;">
+                        <div id="typing_info_li">
+                            <ul>
+                                <li> <i class="icon iconfont">&#xe620;</i>设定：5 分钟</li>
+                                <li>
+                                    <div id="time_table" style="background-position: -84px 0px;">
+                                        <i class="icon iconfont">&#xe620;</i>     0分 0秒
+                                    </div></li>
+                                <li> <i class="icon iconfont">&#xe620;</i>得分：<span style="color: #CC3333"> 50 </span> 分</li>
+                                <li> <i class="icon iconfont">&#xe620;</i>重复：5</li>
+                                <!-- <li class="pinyin">拼音：bīnɡ(冰)</li>
+                                 <li class="wubi86">五笔：ui(冰)</li>
+                                 <li class="wubi86">词组：ui uiy(冰)</li>-->
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="index.html">首页</a></li>
+                <li role="presentation"><a href="hanzishuru.html">汉字输入</a></li>
+                <li role="presentation"><a href="ciyujielong.html">词语接龙</a></li>
+                <li role="presentation"><a href="pinyinzima.html">拼音字码</a></li>
+                <li role="presentation"><a href="kantu.html">看图写作</a></li>
+                <li role="presentation" class="active"><a href="pianpang.html">偏旁组字</a></li>
+                <li role="presentation"><a href="chengjichaxun.html">成绩查询</a></li>
+            </ul>
+
+            <div class="hr-line-dashed"></div>
+            <form id="info_form" action="#" method="post" enctype="application/x-www-form-urlencoded">
+                <div id="info">
+                    <input type="hidden" name="nfab371ce3cdc67d5" id="name" value="游客30213506" />
+                    <input type="hidden" name="nc8cbc85f4f1bad50" id="type" value="cn" />
+                    <input type="hidden" name="n1c0198eea07fc450" id="time" value="5" />
+                    <input type="hidden" name="nc2b56781724d7aee" id="group_id" value="0" />
+                    <input type="hidden" name="nc2126398e886e373" value="1" />
+                    <input type="hidden" name="nf16ad8ecdf643b76" value="1" />
+                    <input type="hidden" name="n66462da1a2b70b2c" value="0" />
+                    <input type="hidden" name="nfa3aab09e5019425" id="nfa3aab09e5019425" value="" />
+                    <input type="hidden" id="word_num" value="1067" />
+                    <input type="hidden" id="head_img" value="1" />
+                    <input type="hidden" name="t" value="97bc25fd00977c4740e52990bb7c3834" />
+                    <input type="hidden" name="n3ae1cdea5d70cefe" id="ssid" value="ggup3jhfppmhmfl20vkg390nf5" />
+                    <input type="hidden" name="start_page" id="start_page" value="2018-01-17 16:00:06" />
+                </div>
+                <div class="bs-example" data-example-id="contextual-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>偏旁</th>
+                            <th>组字</th>
+                            <th>组词</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="active">
+                            <th scope="row">亻</th>
+                            <td><input type="text" class="form-control" id="inputEmail3" placeholder="text"></td>
+                            <td><input type="text" class="form-control" id="inputEmail3" placeholder="text"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">口</th>
+                            <td><input type="text" class="form-control" id="inputEmail3" placeholder="text"></td>
+                            <td><input type="text" class="form-control" id="inputEmail3" placeholder="text"></td>
+                        </tr>
+                        <tr class="success">
+                            <th scope="row">刂</th>
+                            <td><input type="text" class="form-control" id="inputEmail3" placeholder="text"></td>
+                            <td><input type="text" class="form-control" id="inputEmail3" placeholder="text"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <input type="hidden" name="n71882e4f09f48314" value="0" />
+            </form>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+    <!--
+    var qx1	= "nfa3aab09e5019425";
+    var tp1	= "n40b7a2b2aaf8b619,nd58641b39b6c471f,n648275d6ae1fcddf,n7cd81fa7a3d847dc,n461568b418e67c70,nbc76b073fd656f58,necde9a5f88f821c2";
+    -->
+</script>
+
+
+</body>
+</html>

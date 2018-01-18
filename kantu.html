@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="font/iconfont.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/main.css?201708015" rel="stylesheet" type="text/css" />
+    <script src="js/hm.js?234a50e61ace866d010f744976275801"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "js/hm.js?234a50e61ace866d010f744976275801";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        var friend_list 	= [];
+        var friend_beizhu	= [];
+
+        //加载宽屏css
+        var bogy_width	= document.documentElement.clientWidth;
+        if(bogy_width >=1600){
+            document.write('<link href="css/main_1600.css" rel="stylesheet" type="text/css" />');
+        }
+    </script>
+    <link href="css/main_1600.css" rel="stylesheet" type="text/css" />
+    <script src="js/main.js?20170421-1" type="text/javascript"></script>
+    <script type="text/javascript" charset="utf-8" src="utf8-php/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="utf8-php/ueditor.all.min.js"> </script>
+</head>
+<body>
+<style>
+    #info_form {
+        overflow-y: hidden;
+        height: auto;
+    }
+    .form-group {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+</style>
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="huidu">
+                <div class="huidu_tu">
+                    <div class="dropdown">
+                        <div class="  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="icon iconfont">&#xe620;</i>
+                            <span class="caret"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">个人中心</a></li>
+                            <li><a href="#">反馈</a></li>
+                            <li><a href="#">设置</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="huidu_2">
+                <div class="toux">
+                    <div class="touin" style="overflow: hidden">
+                        <div class="touxdont">
+                            姓名：张三
+                            <br/>
+                            班级：一年级1班
+                            <br/>
+                            学校：阿斯顿撒麦克雷
+                            <div style="margin-top: 12px">
+                                <i class="icon iconfont">&#xe620;</i>
+                                <i class="icon iconfont">&#xe620;</i>
+                                <i class="icon iconfont">&#xe620;</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="typing_info" style="display: block; margin-right: 0px; right: 10px; top: 96px;">
+                        <div id="typing_info_li">
+                            <ul>
+                                <li> <i class="icon iconfont">&#xe620;</i>设定：5 分钟</li>
+                                <li>
+                                    <div id="time_table" style="background-position: -84px 0px;">
+                                        <i class="icon iconfont">&#xe620;</i>     0分 0秒
+                                    </div></li>
+                                <!-- <li class="pinyin">拼音：bīnɡ(冰)</li>
+                                 <li class="wubi86">五笔：ui(冰)</li>
+                                 <li class="wubi86">词组：ui uiy(冰)</li>-->
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="index.html">首页</a></li>
+                <li role="presentation"><a href="hanzishuru.html">汉字输入</a></li>
+                <li role="presentation"><a href="ciyujielong.html">词语接龙</a></li>
+                <li role="presentation"><a href="pinyinzima.html">拼音字码</a></li>
+                <li role="presentation" class="active"><a href="kantu.html">看图写作</a></li>
+                <li role="presentation"><a href="pianpang.html">偏旁组字</a></li>
+                <li role="presentation"><a href="chengjichaxun.html">成绩查询</a></li>
+            </ul>
+
+            <div class="hr-line-dashed"></div>
+            <form id="info_form" action="#" method="post" enctype="application/x-www-form-urlencoded">
+                <div id="info">
+                    <input type="hidden" name="nfab371ce3cdc67d5" id="name" value="游客30213506" />
+                    <input type="hidden" name="nc8cbc85f4f1bad50" id="type" value="cn" />
+                    <input type="hidden" name="n1c0198eea07fc450" id="time" value="5" />
+                    <input type="hidden" name="nc2b56781724d7aee" id="group_id" value="0" />
+                    <input type="hidden" name="nc2126398e886e373" value="1" />
+                    <input type="hidden" name="nf16ad8ecdf643b76" value="1" />
+                    <input type="hidden" name="n66462da1a2b70b2c" value="0" />
+                    <input type="hidden" name="nfa3aab09e5019425" id="nfa3aab09e5019425" value="" />
+                    <input type="hidden" id="word_num" value="1067" />
+                    <input type="hidden" id="head_img" value="1" />
+                    <input type="hidden" name="t" value="97bc25fd00977c4740e52990bb7c3834" />
+                    <input type="hidden" name="n3ae1cdea5d70cefe" id="ssid" value="ggup3jhfppmhmfl20vkg390nf5" />
+                    <input type="hidden" name="start_page" id="start_page" value="2018-01-17 16:00:06" />
+                </div>
+
+                <div style="overflow: hidden;margin-left: 10px;">
+                    <div style="width: 40%;float: left;">
+                        <img src="img/123.jpg" width="100%">
+                    </div>
+                    <div style="width: 58%;float: left;">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">文章标题</label>
+                                <input style="width: 90%;margin: auto" type="text" class="form-control" id="exampleInputEmail1" placeholder="text">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="content">
+
+                    <div id="group_typing_info" class="group_typing_info">
+                        文章名称：
+                        <strong>冰灯</strong>，类别：
+                        <strong>中文</strong>，设定时间：
+                        <strong>5分钟</strong>。
+                    </div>
+                    <script id="editor" type="text/plain" style="width:100%;height:500px;"></script>
+
+                </div>
+                <input type="hidden" name="n71882e4f09f48314" value="0" />
+            </form>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+
+
+    function isFocus(e){
+        alert(UE.getEditor('editor').isFocus());
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function setblur(e){
+        UE.getEditor('editor').blur();
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function insertHtml() {
+        var value = prompt('插入html代码', '');
+        UE.getEditor('editor').execCommand('insertHtml', value)
+    }
+    function createEditor() {
+        enableBtn();
+        UE.getEditor('editor');
+    }
+    function getAllHtml() {
+        alert(UE.getEditor('editor').getAllHtml())
+    }
+    function getContent() {
+        var arr = [];
+        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+        arr.push("内容为：");
+        arr.push(UE.getEditor('editor').getContent());
+        alert(arr.join("\n"));
+    }
+    function getPlainTxt() {
+        var arr = [];
+        arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
+        arr.push("内容为：");
+        arr.push(UE.getEditor('editor').getPlainTxt());
+        alert(arr.join('\n'))
+    }
+    function setContent(isAppendTo) {
+        var arr = [];
+        arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
+        UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
+        alert(arr.join("\n"));
+    }
+    function setDisabled() {
+        UE.getEditor('editor').setDisabled('fullscreen');
+        disableBtn("enable");
+    }
+
+    function setEnabled() {
+        UE.getEditor('editor').setEnabled();
+        enableBtn();
+    }
+
+    function getText() {
+        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
+        var range = UE.getEditor('editor').selection.getRange();
+        range.select();
+        var txt = UE.getEditor('editor').selection.getText();
+        alert(txt)
+    }
+
+    function getContentTxt() {
+        var arr = [];
+        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
+        arr.push("编辑器的纯文本内容为：");
+        arr.push(UE.getEditor('editor').getContentTxt());
+        alert(arr.join("\n"));
+    }
+    function hasContent() {
+        var arr = [];
+        arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
+        arr.push("判断结果为：");
+        arr.push(UE.getEditor('editor').hasContents());
+        alert(arr.join("\n"));
+    }
+    function setFocus() {
+        UE.getEditor('editor').focus();
+    }
+    function deleteEditor() {
+        disableBtn();
+        UE.getEditor('editor').destroy();
+    }
+    function disableBtn(str) {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            if (btn.id == str) {
+                UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+            } else {
+                btn.setAttribute("disabled", "true");
+            }
+        }
+    }
+    function enableBtn() {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+        }
+    }
+
+    function getLocalData () {
+        alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
+    }
+
+    function clearLocalData () {
+        UE.getEditor('editor').execCommand( "clearlocaldata" );
+        alert("已清空草稿箱")
+    }
+</script>
+<script type="text/javascript">
+    <!--
+    var qx1	= "nfa3aab09e5019425";
+    var tp1	= "n40b7a2b2aaf8b619,nd58641b39b6c471f,n648275d6ae1fcddf,n7cd81fa7a3d847dc,n461568b418e67c70,nbc76b073fd656f58,necde9a5f88f821c2";
+    -->
+</script>
+<script type="text/javascript" src="js/typing.js?v20170911"></script>
+
+</body>
+</html>

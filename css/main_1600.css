@@ -1,0 +1,61 @@
+/* CSS Document */
+#container{width:1300px;}
+#header{width:1290px; margin-left:-645px;}
+#header #globallink{width:830px; padding-left:200px;}
+#header #globallink a{margin-left:7px; width:85px;}
+#content .typing input, #content .typing .text {
+    width: 100%;
+}
+#content .set_form{width:1100px; background:#FFF url(images/bg_set2.jpg) 549px -1px no-repeat;}
+#content .set_form form{padding:5px 50px;}
+#content .set_form ul li .username{width:390px;}
+#content .set_form ul li .userpass{width:200px;}
+#content .set_form ul li{width:700px;}
+#content .select_i{width:480px;}
+#content .set_form ul li.t{width:230px;}
+#content .info_link .info_link_1{margin-left:270px;}
+
+#content .paiming_block{width:410px;}
+.paiming_block ul li span.sudu{margin-right:20px;}
+#content .art_show .rr{width:350px;}
+#content .art_show .rr .paiming_block{width:348px;}
+#content .art_show .mm{width:920px;}
+#content .art_saixuan .fenlei_li{float:left; width:1200px;}
+
+#my_login{ margin:70px 0px 0px 300px;}
+#my_pass_forget .forget_form{padding-left:150px; line-height:20px;}
+
+.table{width:1290px;}
+.art_so form .keywords{width:600px;}
+.art_search .s1{width:555px; margin-right:120px;}
+.art_search .s1 .keywords{width:420px;}
+.art_search .title1{width:80px; line-height:40px;}
+.art_so .art_so_list .art_list_text{width:1100px;}
+#content #my_main{width:1150px;}
+#content #my_menu{width:131px;}
+#my_main .block{width:575px;}
+.artnew table tr td textarea{width:920px;}
+#my_main .artnew #mingdan{width:800px;}
+#my_main .artnew #xuzhi{width:800px;}
+
+#content .set_form .form1_h3{width:640px; padding-left:250px; }
+#content .set_form .set_name{padding-left:330px;}
+#content .set_form .set_name .username{width:270px;}
+#content .set_form .shuoming{margin-left:50px; font-size:13px;}
+
+#content .info_pingjia{width:645px;}
+#dashang .dashang_div{width:950px;}
+#dashang p{padding-bottom:30px;}
+
+#my_main .kshelp_div{ padding:0px 40px;}
+.develop_blog_content li.content{width:1178px;}
+
+#typing_info{margin-right:-650px;}
+
+#container #content #keyboard{margin:20px 150px;}
+#content .key_main{width:940px;}
+#content .dazi_jiaocheng{width:345px;}
+
+#gg_rl .ggl{margin-left:-780px;}
+#gg_rl .ggr{margin-left:660px;}
+.guanggao_footer{padding:0px 160px;}

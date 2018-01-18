@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* 系统共用部分 */
+
+
+body,ul,li,h1,h2,h3,h4,p{
+	padding: 0px;
+	margin: 0px;
+	}
+li{
+	list-style-type: none;
+	}
+	
+/*顶部logo信息*/
+#TopBox
+{
+    display: block;
+	width: 100%;
+	height: 150px;
+    }
+#TopBox .SiteLogo{
+	display: block;
+	float: left;
+	width:500px;
+	height:150px;
+	}
+#TopBox .SiteLogo a{
+	display: block;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*登录部分*/
+#UserLogBox{
+	display: block;
+	width: 520px;
+	height: 30px;
+	float: right;
+	/*border: 1px solid #F78A8C;*/
+	}
+.UserLogRight{
+	display: block;
+	float: right;
+	}
+.UserLogRight a{
+	display: inline-block;
+	font-size:16px;
+	color: #ffffff;
+	line-height: 24px;
+	text-decoration: none;
+	background-color: #85b4f3;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	margin-left: 5px;
+	}
+.UserLogRight a:hover {
+	background-color: #3f89ec;
+	color: #fff;
+}
+
+#TopBox p{
+	color: #A3A2A2;
+	padding: 0px;
+	font-size: 14px;
+	display: block;
+	float: right;
+	margin: 100px 0px 0px;
+	font-weight: normal;
+}
+/*百度站内搜索*/
+.baidusoBox11{
+	display: block;
+	float: right;
+	width:175px;
+	padding:2px;
+	margin-left:5px;
+	background-color: #85b4f3;
+	}
+.baidusoBox11 .bdcs-search-form-input {
+    border-width: 0px;
+    display: inline-block;
+    width:120px;
+    height:24px;
+    float: left;
+    border-color:#a6a6a6;
+    text-indent: 5px;
+
+    line-height:26px;
+    font-family:Arial,SimSun,sans-serif;
+    color:#6e9df1;
+    font-size:14px;
+    border-radius:0px;
+    background-color:#e2ecfc;
+}
+.baidusoBox11 .bdcs-search-form-submit {
+    display: inline-block;
+    cursor: pointer;
+    border-width: 0px;
+    text-align: center;
+    width: 50px;
+    height:26px;
+    background-color:#85b7f3;
+    color:#fff;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:14px;
+    border-radius:0px;
+	margin-left:3px;
+    line-height:26px;
+}
+/*网页菜单*/
+#SiteMenu{
+	/*background-color: #0ae300;*/
+	background-color:#6da6f1;
+	height: 40px;
+	display: block;
+	clear: both;
+	font-size: 16px;
+}
+#SiteMenu ul{
+	display: block;
+	float: left;
+	/*background-color: #0fbd00;*/
+	background-color: #628aca;
+}
+#SiteMenu li{
+	display: block;
+	float: left;
+}
+#SiteMenu .menu_r{
+	display: block;
+	float: right;
+	/*background-color: #0fbd00;*/
+	background-color: #628aca;
+	padding-left: 1px;
+}
+#SiteMenu a{
+	height: 40px;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	text-decoration: none;
+	line-height: 40px;
+	padding-left: 3px;
+	padding-right: 5px;
+	/*background-color: #0ae300;*/
+	background-color: #6da6f1;
+	margin-right: 1px;
+	}
+#SiteMenu a:hover {
+	background-color:#b434ff;	
+}
+
+/*页面底部*/
+
+/*底部*/
+#Footer{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+#Footer p{
+	
+	font-family: "微软雅黑", "宋体";
+	font-size: 16px;
+	line-height: 25px;
+	color: #666666;
+	text-align: center;
+	}
+#Footer a{
+	display: inline-block;
+	height: 25px;
+	font-family: "微软雅黑", "宋体";
+	font-size: 16px;
+	line-height: 25px;
+	color: #666666;
+	text-align: center;
+	text-decoration: none;
+	}
+#Footer a:hover {
+	color: #f00;
+}
+/*各功能使用说明*/
+#WebReadme{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px dotted #333333;
+	border-bottom: 1px dotted #666;
+	}
+#WebReadme h2{
+	display: block;
+	width: 100%;
+	height:30px;
+	clear: both;
+	text-align:center;
+	line-height:30px;
+	font-family:"宋体";
+	font-size:18px;
+	color: #666;
+	}
+#WebReadme p{
+	line-height: 23px;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666;
+	text-indent: 28px;
+	}

@@ -1,0 +1,114 @@
+.huidu {
+    background: #374f5a;
+    height: 47px;
+}
+.huidu_tu{
+    float: right;
+    padding-right: 10px;
+    padding-top: 7px;
+    z-index: 999;
+}
+.huidu_2{
+    background: #ddd;
+}
+.dropdown-toggle{
+    color: #b1b1b1;
+}
+.dropdown-toggle:hover{
+    color: #fff;
+}
+.dropdown-toggle .icon{
+    font-size: 24px;
+}
+.toux .touin{
+    position: relative;
+   /* top: -32px;*/
+    left: 20px;
+}
+.touximg{
+    width: 38%;
+    border-radius: 50%;
+    float: left;
+}
+.touxdont {
+    float: left;
+    margin-top: 49px;
+    font-size: 16px;
+    margin-left: 11px;
+    text-align: left;
+}
+.hr-line-dashed {
+    background-color: #ffffff;
+    color: #ffffff;
+    height: 1px;
+    margin: 20px 0;
+    border-top: 1px dashed #7a7a7a;
+}
+.form-inline{
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+.tili{
+    color: #374f5a;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.tili_bi {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    -webkit-padding-start: 20px;
+}
+.typing_info_li div li{
+   padding-left: 20px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    background: #0491d2;
+    padding-left: 15px;
+}
+.col-md-3{
+    padding-right: 0px;
+}
+.col-md-9{
+    padding-left: 0px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    margin-top: 7px;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    margin-top: 7px;
+}
+a{
+    color: #fff;
+}
+#info_form{
+    overflow-y: scroll;
+    height: 600px;
+}
+#info_form #type{
+    color: #CC3333 !important;
+}
+#time_table,#sudu{
+   color: #CC3333 !important;
+}
+#typing_info_li #sudu,#typing_info_li #zhengque{
+    color: #CC3333 !important;
+}

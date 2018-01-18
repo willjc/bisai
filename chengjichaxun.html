@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="font/iconfont.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/main.css?201708015" rel="stylesheet" type="text/css" />
+    <script src="js/hm.js?234a50e61ace866d010f744976275801"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "js/hm.js?234a50e61ace866d010f744976275801";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        var friend_list 	= [];
+        var friend_beizhu	= [];
+
+        //加载宽屏css
+        var bogy_width	= document.documentElement.clientWidth;
+        if(bogy_width >=1600){
+            document.write('<link href="css/main_1600.css" rel="stylesheet" type="text/css" />');
+        }
+    </script>
+    <link href="css/main_1600.css" rel="stylesheet" type="text/css" />
+    <script src="js/main.js?20170421-1" type="text/javascript"></script>
+    <script type="text/javascript" src="http://dazi.kukuw.com/js/json2.js"></script>
+</head>
+<body>
+<style>
+    #info_form {
+        overflow-y: hidden;
+        height: auto;
+    }
+    .form-group {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .form-control {
+        display: block;
+        width: 200px;
+    }
+    .table {
+        width: 100%;
+    }
+    #typing_info li {
+        line-height: 25px;
+        width: 100%;
+        padding: 0px 5px;
+        /* float: left; */
+        text-align: left;
+        font-size: 28px;
+        color: #e23030;
+        margin-top: 20px;
+    }
+</style>
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="huidu">
+                <div class="huidu_tu">
+                    <div class="dropdown">
+                        <div class="  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="icon iconfont">&#xe620;</i>
+                            <span class="caret"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">个人中心</a></li>
+                            <li><a href="#">反馈</a></li>
+                            <li><a href="#">设置</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="huidu_2">
+                <div class="toux">
+                    <div class="touin" style="overflow: hidden">
+                        <div class="touxdont">
+                            姓名：张三
+                            <br/>
+                            班级：一年级1班
+                            <br/>
+                            学校：文化路一小
+                            <div style="margin-top: 12px">
+                                <i class="icon iconfont">&#xe620;</i>
+                                <i class="icon iconfont">&#xe620;</i>
+                                <i class="icon iconfont">&#xe620;</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div id="typing_info" style="display: block; margin-right: 0px; right: 10px; top: 96px;">
+                        <div id="typing_info_li">
+                            <ul>
+                                <li>总分：100分</li>
+                                <!-- <li class="pinyin">拼音：bīnɡ(冰)</li>
+                                 <li class="wubi86">五笔：ui(冰)</li>
+                                 <li class="wubi86">词组：ui uiy(冰)</li>-->
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="index.html">首页</a></li>
+                <li role="presentation"><a href="hanzishuru.html">汉字输入</a></li>
+                <li role="presentation"><a href="ciyujielong.html">词语接龙</a></li>
+                <li role="presentation"><a href="pinyinzima.html">拼音字码</a></li>
+                <li role="presentation"><a href="kantu.html">看图写作</a></li>
+                <li role="presentation"><a href="pianpang.html">偏旁组字</a></li>
+                <li role="presentation" class="active"><a href="chengjichaxun.html">成绩查询</a></li>
+            </ul>
+
+            <div class="hr-line-dashed"></div>
+            <form id="info_form" action="#" method="post" enctype="application/x-www-form-urlencoded">
+                <div id="info">
+                    <input type="hidden" name="nc8cbc85f4f1bad50" id="type" value="cn" />
+                    <input type="hidden" name="n1c0198eea07fc450" id="time" value="5" />
+                    <input type="hidden" name="nc2b56781724d7aee" id="group_id" value="0" />
+                    <input type="hidden" name="nc2126398e886e373" value="1" />
+                    <input type="hidden" name="nf16ad8ecdf643b76" value="1" />
+                    <input type="hidden" name="n66462da1a2b70b2c" value="0" />
+                    <input type="hidden" name="nfa3aab09e5019425" id="nfa3aab09e5019425" value="" />
+                    <input type="hidden" id="word_num" value="1067" />
+                    <input type="hidden" id="head_img" value="1" />
+                    <input type="hidden" name="t" value="97bc25fd00977c4740e52990bb7c3834" />
+                    <input type="hidden" name="n3ae1cdea5d70cefe" id="ssid" value="ggup3jhfppmhmfl20vkg390nf5" />
+                    <input type="hidden" name="start_page" id="start_page" value="2018-01-17 16:00:06" />
+                </div>
+                <div >汉字输入</div>
+                <div class="bs-example" data-example-id="contextual-table">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>总字数</th>
+                                <th>完成</th>
+                                <th>正确</th>
+                                <th>错误</th>
+                                <th>正确率</th>
+                                <th>用时</th>
+                                <th>打字速度</th>
+                                <th>个人成绩</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="active">
+                                <th scope="row">11512</th>
+                                <td>1685个</td>
+                                <td>1685个</td>
+                                <td>0个</td>
+                                <td>100%</td>
+                                <td>5分钟</td>
+                                <td>132/分</td>
+                                <td>132分</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <div >词语接龙</div>
+                <div class="bs-example" data-example-id="contextual-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>组词数量</th>
+                            <th>接上数量</th>
+                            <th>正确</th>
+                            <th>错误</th>
+                            <th>重复</th>
+                            <th>用时</th>
+                            <th>成绩</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="success">
+                            <th scope="row">25个</th>
+                            <td>13个</td>
+                            <td>13</td>
+                            <td>12</td>
+                            <td>11</td>
+                            <td>5分钟</td>
+                            <td>130分</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div >拼音字码</div>
+                <div class="bs-example" data-example-id="contextual-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>组词数量</th>
+                            <th>接上数量</th>
+                            <th>正确</th>
+                            <th>错误</th>
+                            <th>重复</th>
+                            <th>用时</th>
+                            <th>成绩</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="info">
+                            <th scope="row">25个</th>
+                            <td>13个</td>
+                            <td>13</td>
+                            <td>12</td>
+                            <td>11</td>
+                            <td>5分钟</td>
+                            <td>130分</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div >看图写作</div>
+                <div class="bs-example" data-example-id="contextual-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>组词数量</th>
+                            <th>接上数量</th>
+                            <th>正确</th>
+                            <th>错误</th>
+                            <th>重复</th>
+                            <th>用时</th>
+                            <th>成绩</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="warning">
+                            <th scope="row">25个</th>
+                            <td>13个</td>
+                            <td>13</td>
+                            <td>12</td>
+                            <td>11</td>
+                            <td>5分钟</td>
+                            <td>130分</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div >偏旁组字</div>
+                <div class="bs-example" data-example-id="contextual-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>组词数量</th>
+                            <th>接上数量</th>
+                            <th>正确</th>
+                            <th>错误</th>
+                            <th>重复</th>
+                            <th>用时</th>
+                            <th>成绩</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="danger">
+                            <th scope="row">25个</th>
+                            <td>13个</td>
+                            <td>13</td>
+                            <td>12</td>
+                            <td>11</td>
+                            <td>5分钟</td>
+                            <td>130分</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+    <!--
+    var qx1	= "nfa3aab09e5019425";
+    var tp1	= "n40b7a2b2aaf8b619,nd58641b39b6c471f,n648275d6ae1fcddf,n7cd81fa7a3d847dc,n461568b418e67c70,nbc76b073fd656f58,necde9a5f88f821c2";
+    -->
+</script>
+
+
+</body>
+</html>
